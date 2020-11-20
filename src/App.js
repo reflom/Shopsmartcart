@@ -1,9 +1,19 @@
+import React from 'react';
+import {Switch,Route} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import {BrowserRouter} from 'react-router-dom';
+import history from './history';
+import Homepage from './components/Homepage'; 
 
-
-function App() {
+const App = () => {
   return (
-    <h1>app is working</h1>
-  );
+      <>
+      <BrowserRouter history={history}>
+        <Route exact path='/' component={Navbar}/>
+        <Route exact path='/homepage' component={Homepage}/>
+      </BrowserRouter>
+      </>
+  )
 }
-
 export default App;
+
