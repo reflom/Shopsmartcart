@@ -1,2 +1,0 @@
-(this.webpackJsonpshopsmartcart=this.webpackJsonpshopsmartcart||[]).push([[0],{10:function(t,n,e){"use strict";e.r(n);var c=e(0),r=(e(2),e(3)),o=e.n(r);e(9);var s=function(){return Object(c.jsx)("h1",{children:"app is working"})},i=function(t){t&&t instanceof Function&&e.e(3).then(e.bind(null,11)).then((function(n){var e=n.getCLS,c=n.getFID,r=n.getFCP,o=n.getLCP,s=n.getTTFB;e(t),c(t),r(t),o(t),s(t)}))};o.a.render(Object(c.jsx)(s,{}),document.getElementById("root")),i()},9:function(t,n,e){}},[[10,1,2]]]);
-//# sourceMappingURL=main.79e1495a.chunk.js.map
